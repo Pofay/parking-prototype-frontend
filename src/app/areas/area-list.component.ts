@@ -1,4 +1,5 @@
 import { Component } from "@angular/core";
+import { IParkingArea } from "./parking-area";
 
 @Component({
     selector : "pp-root",
@@ -8,7 +9,7 @@ import { Component } from "@angular/core";
 export class AreaListComponent 
 {
     pageTitle : string = "List of Parking Areas";
-    parking_areas: any[] = 
+    parking_areas: IParkingArea[] = 
     [
         {
             "name": "Canteen Area",
