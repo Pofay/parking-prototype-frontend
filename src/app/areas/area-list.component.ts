@@ -5,4 +5,7 @@ import { Component } from "@angular/core";
     templateUrl : "./area-list.component.html",
 })
 
-export class AreaListComponent {}
+export class AreaListComponent 
+{
+    pageTitle : string = "List of Parking Areas";
+}
