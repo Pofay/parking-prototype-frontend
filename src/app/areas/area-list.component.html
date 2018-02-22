@@ -26,7 +26,10 @@
                     </tr>
                 </thead>
                 <tbody>
-                    
+                    <tr *ngFor='let parking_area of parking_areas'>
+                        <td>{{parking_area.name}}</td>
+                        <td>{{parking_area.available_spots}}</td>
+                    </tr>
                </tbody>
             </table>
         </div>
