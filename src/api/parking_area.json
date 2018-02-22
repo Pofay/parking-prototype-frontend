@@ -1,0 +1,20 @@
+{
+    "data": {
+        "spots": [
+            {
+                "name": "C1",
+                "id": 1,
+                "available": false,
+                "area_id": 1
+            },
+            {
+                "name": "C2",
+                "id": 2,
+                "available": false,
+                "area_id": 1
+            }
+        ],
+        "name": "Canteen Area",
+        "id": 1
+    }
+}

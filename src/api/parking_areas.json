@@ -1,0 +1,16 @@
+{
+    "data": {
+        "areas": [
+            {
+                "name": "Canteen Area",
+                "id": 1,
+                "available_spots": 2
+            },
+            {
+                "name": "Main Area",
+                "id": 2,
+                "available_spots": 1
+            }
+        ]
+    }
+}
