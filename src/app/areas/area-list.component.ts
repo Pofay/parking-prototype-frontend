@@ -12,13 +12,13 @@ export class AreaListComponent  implements OnInit
 {
     
     pageTitle : string = "List of Parking Areas";
-    parking_areas: IParkingArea[];
+    parkingAreas : IParkingArea[];
 
     constructor(private _parkingAreaService : ParkingAreaService) {
     }
 
     ngOnInit(): void {
-        this.parking_areas = this._parkingAreaService.getParkingAreas();
+        this._parkingAreaService.getParkingAreas();
     }
 
    
